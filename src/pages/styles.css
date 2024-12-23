@@ -1,0 +1,88 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #7f8c8d;
+
+}
+p{
+    color: #7f8c8d; 
+}
+
+
+.nav{
+    height: 25px;
+    background-color: #088138;
+
+    & a{
+        color: #ffffff;
+        padding: 5px;
+    }
+
+    & .conection{
+        display: flex;
+        justify-content: flex-end;
+        padding: 3px 8px 3px 0;
+    }
+
+}
+
+
+
+.compras{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    & button{
+        display: flex;
+        align-items: center;
+        padding: 4px 20px;
+        border-radius: 30px;
+        border: 1px solid #088138;
+        background-color: transparent;
+        gap: 20px;
+    }
+}
+
+
+.productos{
+    height:40px;
+    display: flex;
+    border-top: 1px solid #f6f7f7;
+    justify-content: center;
+
+    & a{
+        padding: 5px;
+    }
+}
+
+
+.descuento{
+    height: 25px;
+    background-color: #e3d314;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
